@@ -40,7 +40,7 @@ class Ambiente():
             n = dX / dist
             dv = p1.V - p2.V
 
-            # Correção importante aqui: cálculo do impulso escalar
+           
             impulse_scalar = (2 * np.dot(dv[0], n[0])) / (p1.mass + p2.mass)  # Extrai os vetores 1D
 
             # Aplica o impulso como vetores
