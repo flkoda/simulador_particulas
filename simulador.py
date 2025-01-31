@@ -79,7 +79,7 @@ for _ in range(number_of_particles):
     X = np.random.rand(1, 2) * (DIM - radius) + radius
     V = (np.random.rand(1, 2) - 0.5) * 100
 
-    # Certifique-se que X e V são arrays NumPy com tipo float
+
     X = X.astype(float)
     V = V.astype(float)
     particle = Particula(env, X, V, radius, mass)
