@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+###instal blibioteca pygame, ramdom,
+m pip install -U pygame --user
+ip install random
+m pip install --user numpy.
